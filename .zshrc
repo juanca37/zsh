@@ -217,3 +217,5 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Created by `pipx` on 2024-04-02 15:10:52
 export PATH="$PATH:$HOME/.local/bin"
 
+# POETRY stuff
+export POETRY_VIRTUALENVS_IN_PROJECT=true
