@@ -190,6 +190,9 @@ start-aws-session() {
      echo "You now have an active session with $PROFILE_RESPONSE 😊"
 }
 
+fdir() {
+  cd $(fd --type directory $1 ~ | fzf)
+}
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -213,3 +216,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Created by `pipx` on 2024-04-02 15:10:52
 export PATH="$PATH:$HOME/.local/bin"
+
