@@ -210,3 +210,6 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Created by `pipx` on 2024-04-02 15:10:52
+export PATH="$PATH:$HOME/.local/bin"
